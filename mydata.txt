@@ -1,13 +1,23 @@
 number,date,song,artist
-1,19-10-2026,"Stop The World I Wanna Get Off With You","Arctic Monkeys"
-2,19-10-2026,"Stop The Wedding!",Ashe
-3,19-10-2026,"Everybody Here Wants You","Jeff Buckley"
-4,19-10-2026,"Lover, You Should've Come Over","Jeff Buckley"
-5,19-10-2026,"Meet Me In The Pale Moonlight","Lana Del Ray"
-6,19-10-2026,Roddy,Djo
-7,19-10-2026,"Cowboys and Angels","George Michael"
-8,19-10-2026."Cannon Chase","Labi Siffre"
-9,19-10-2026,"Be Like a Woman","Chris Rainbow"
-10,19-10-2026,"Wicked Game","Chris Isaak"
+19-10-2026,"Stop The World I Wanna Get Off With You","Arctic Monkeys"
+19-10-2026,"Stop The Wedding!",Ashe
+19-10-2026,"Everybody Here Wants You","Jeff Buckley"
+19-10-2026,"Lover, You Should've Come Over","Jeff Buckley"
+19-10-2026,"Meet Me In The Pale Moonlight","Lana Del Ray"
+19-10-2026,Roddy,Djo
+19-10-2026,"Cowboys and Angels","George Michael"
+19-10-2026."Cannon Chase","Labi Siffre"
+19-10-2026,"Be Like a Woman","Chris Rainbow"
+19-10-2026,"Wicked Game","Chris Isaak"
+20-10-2026,"Eyes Without A Face","Billy Idol"
+20-10-2026,Loser,"Tame Impala"
+20-10-2026,"The Less I Know The Better","Tame Impala"
+20-10-2026,"A Night To Remember","beabadoobee, Laufey"
+20-10-2026,Les,"Childish Gambino"
+20-10-2026,"No Ordinary Love","Sade"
+20-10-2026,"Jettin'","Digable Planets"
+20-10-2026,"Perfect Hair","DANGERDOOM, MF DOOM, Danger Mouse"
+20-10-2026,"Met my Match","Say Now"
+20-10-2026,"Nicole Kidman","ADÉLA"
 
 
