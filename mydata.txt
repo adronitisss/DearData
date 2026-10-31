@@ -19,5 +19,15 @@ number,date,song,artist
 20-10-2026,"Perfect Hair","DANGERDOOM, MF DOOM, Danger Mouse"
 20-10-2026,"Met my Match","Say Now"
 20-10-2026,"Nicole Kidman","ADÉLA"
+21-10-2026,"Still Dreaming","Nas, Kanye West, Chrisette Michele"
+21-10-2026,"All About U","2Pac, Yaki Kadafi, Snoop Dogg, Nate Dogg,Fatal"
+21-10-2026,"A Devil's Touch in the Midwest","Macabre Plaza"
+21-10-2026,"Ain't Got Time TO Waste","Da Brat"
+21-10-2026,"Party With A Jagaban","Midas the Jagaban"
+21-10-2026,"Thank You","Clairo"
+21-10-2026,"Back to Black","Amy Winehouse"
+21-10-2026,"Operation Lifesaver aka Mint Test","Madvillain, Madlib, MF DOOM"
+21-10-2026,"Looks","Steve Lacy"
+21-10-2026,"Somethin' To Ride To (Fonky Expedition)","The Conscious Daughters"
 
 
