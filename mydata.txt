@@ -29,5 +29,14 @@ number,date,song,artist
 21-10-2026,"Operation Lifesaver aka Mint Test","Madvillain, Madlib, MF DOOM"
 21-10-2026,"Looks","Steve Lacy"
 21-10-2026,"Somethin' To Ride To (Fonky Expedition)","The Conscious Daughters"
-
+22-10-2026,"Like It Like That","A Tribe Called Quest"
+22-10-2026,"Last Summer - 2008 Remaster","Rod Stewart"
+22-10-2026,"Put Your Head On My Shoulder - Remaster","Paul Anka"
+22-10-2026,"Girls On Film","Duran Duran"
+22-10-2026,"Dexterity","M-Beat"
+22-10-2026,"Hey You","The Pharcycle"
+22-10-2026,"Got to Be Real - Single Version","Cheryl Lynn"
+22-10-2026,"Sempe","L.A.X"
+22-10-2026,"Trap Queen","Fetty Wap"
+22-10-2026,"Oh Honey","Delegation"
 
