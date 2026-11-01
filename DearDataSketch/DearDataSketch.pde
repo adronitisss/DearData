@@ -2,25 +2,28 @@ String[] messages = {"Haha... hi there :) You might want to click on the screen"
 
 String warning = "Warning: none of the following contents are musically accurate. This has been made for fun and hopefully won't be viewed as something sacrilegious.. Please click to continue.";
 
-int stage = 0;     // 0 = first text, 1 = second text, 2 = flashing warning, 3 = stave + clef
-float x;           // x position of the text
+int stage = 0;     // 0 = 1st text, 1 = 2nd text, 2 = flash warning, 3 = stave
+float x;           // x position of text
 
-//declaring an image variable clef = bass clef photo
+//adding images
 PImage clef;
+PImage semib;
 
-//will only be executed once in the entire code
+//will only be executed once
 void setup() {
   size(800, 300);
   textSize(32);
   x = width;       // start just off the right edge
 
-  //initialising clef = bass clef
+  //initialising images
   clef = loadImage("bass_clef-removebg-preview.png");
+  semib = loadImage("sb-removebg-preview.png");
+  ;
 }
 
 //will loop 60x a second when code is executed
 void draw() {
-  background(255); // redraw the background every frame so the text doesn't smear
+  background(255); // redraw the background every frame so text doesn't smear
 
   if (stage < 2) {
     // scrolling text (stage 0 or 1)
@@ -29,15 +32,15 @@ void draw() {
 
     x -= 3;
 
-    // once the text has fully left the screen, loop back
+    // looping text
     if (x < -textWidth(messages[stage])) {
       x = width;
     }
   } else if (stage == 2) {
     // stage 2: flashing warning
-    // frameCount/30 changes every half a second, so this is on for 30 frames, off for 30
+    // frameCount/30 changes every half a second, so this is on for 30 frames & off for 30
     if ((frameCount / 30) % 2 == 0) {
-      pushStyle();
+      pushStyle(); // saves current style setting
 
       // warning message triangle w/ "!"
       fill(255, 0, 0);
@@ -53,24 +56,40 @@ void draw() {
       textSize(26);
       text(warning, 50, 90, 700, 190);
 
-      popStyle();
+      popStyle(); // restores prior settings
     }
   } else {
-    // stage 3: draw the stave and bass clef
+    // stage 3: draw the stave
     stroke(0);
     strokeWeight(1.5);
     for (int i = 0; i < 5; i++) {
       float y1 = 60 + i * 37;
       line(40, y1, 760, y1);
     }
+    image(clef, 50, 60, clef.width * 0.3, clef.height * 0.3);
 
-    image(clef, 50, 59, clef.width * 0.3, clef.height * 0.3);
+    {
+      // stage 3: sb
+      pushStyle();
+      imageMode(CENTER);   // x&y in centre
+
+      float lineGap = 37;       // matches stave spacing
+      float bottomLine = 208;   // y of the bottom stave line
+
+      for (int n = 0; n < 10; n++) {
+        float x2 = 200 + n * 54;
+        float y2 = bottomLine - n * (lineGap / 2);
+        image(semib, x2, y2, semib.width * 0.15, semib.height * 0.15);
+      }
+      popStyle();
+    }
   }
 }
 
+
 void mousePressed() {
   if (stage < 3) {
-    stage++;       // move to the next stage
-    x = width;     // restart the text from the right edge
+    stage++;       // move to next stage
+    x = width;     // restart text from the right edge
   }
 }
