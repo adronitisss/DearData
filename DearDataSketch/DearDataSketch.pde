@@ -23,7 +23,7 @@ void setup() {
 
 //will loop 60x a second when code is executed
 void draw() {
-  background(255); // redraw the background every frame so text doesn't smear
+  background(255);
 
   if (stage < 2) {
     // scrolling text (stage 0 or 1)
@@ -38,7 +38,7 @@ void draw() {
     }
   } else if (stage == 2) {
     // stage 2: flashing warning
-    // frameCount/30 changes every half a second, so this is on for 30 frames & off for 30
+    // frameCount/30 changes every 1/2 sec, 30 frames on & off
     if ((frameCount / 30) % 2 == 0) {
       pushStyle(); // saves current style setting
 
